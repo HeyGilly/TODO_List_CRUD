@@ -1,9 +1,14 @@
+/*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*{margin:0;padding:0;box-sizing:border-box;}
+/*Must Added*/
+*{padding:0;margin:0;box-sizing: border-box;}
+/*Body*/
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #c5efff;
 }
 
+/*----Navigation----*/
 /*Navigation*/
 nav{
     background-color: azure;
@@ -19,8 +24,77 @@ nav a{
     color: darkred;
     transition: transform 1s;
 }
-
 /*Navigation header Hover*/
 #navigationHeader:hover{
     transform: scale(1.2);
+}
+
+/*--- Main Section ---*/
+main{
+    padding: 5em 0;
+    border: 3px solid red;
+}
+
+/*To Do List Container*/
+#wholeTodoContainer{
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 0 0 12px 12px;
+}
+
+/*Header Section*/
+#headerSection{
+    background: linear-gradient(309deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 100%);     padding-top: 12px;
+    padding-bottom: 12px;
+}
+/*Main Header Text*/
+#headerSection h3{
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 0 0 20px 0;
+    font-size: 16px;
+}
+
+/*--- input Section ---*/
+#inputSection{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+/*--- Input ---*/
+#inputSection input{
+    width: 80%;
+    font-size: 16px;
+    border: none;
+    background-color: lightslategrey;
+    color: whitesmoke;
+    padding-left: 12px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+}
+
+/*--- Input Button ---*/
+#inputSection button{
+    font-size: 16px;
+    padding: .5em 1em;
+    color: whitesmoke;
+    background: linear-gradient(309deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 100%);
+    border: none;
+    border-radius:  0 4px 4px 0;
+}
+/*--- Input Button Hover ---*/
+#inputSection button:hover{
+    box-shadow: 4px 0 5px black;
+}
+
+/*--- List Section ---*/
+#listSection{
+    margin: 12px 0 12px 12px;
+}
+/*-----When the screen is larger than 600px-----*/
+@media only screen and (min-width: 600px) {
+
+
 }
