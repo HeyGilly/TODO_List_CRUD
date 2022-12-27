@@ -33,11 +33,13 @@ The languages used to create this application:
 * [X] Google Fonts
 * [X] Navigation
 * [X] Body - Background
-* [ ] TODO list
-  * [ ] Header
-  * [ ] Input
-  * [ ] List Template
-* [ ] Make it Responsive
+* [X] TODO list
+  * [X] Header
+  * [X] Input
+  * [X] List Template
+* [X] Make it Responsive
+* [ ] Javascript Functionality
+  * [ ] start over 
 
 
 
