@@ -30,8 +30,14 @@ The languages used to create this application:
 
 ## Pathway
 
-* [ ] Google Fonts
-* [ ] Navigation
+* [X] Google Fonts
+* [X] Navigation
+* [X] Body - Background
+* [ ] TODO list
+  * [ ] Header
+  * [ ] Input
+  * [ ] List Template
+* [ ] Make it Responsive
 
 
 
