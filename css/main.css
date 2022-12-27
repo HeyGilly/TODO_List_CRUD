@@ -92,11 +92,12 @@ main{
 
 /*--- List Section ---*/
 #listSection{
-    margin: 12px 12px 12px 12px;
+    margin: 24px;
 }
-#listSection p {
+ul li {
     border-bottom: thin solid blue;
-
+    position: relative;
+    padding: 15px 0 0 0;
 }
 /*-----When the screen is larger than 600px-----*/
 @media only screen and (min-width: 600px) {
