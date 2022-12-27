@@ -40,6 +40,7 @@ main{
     border: 3px solid black;
     background-color: white;
     border-radius: 0 0 12px 12px;
+    margin: 0 12px;
 }
 
 /*Header Section*/
@@ -91,10 +92,26 @@ main{
 
 /*--- List Section ---*/
 #listSection{
-    margin: 12px 0 12px 12px;
+    margin: 12px 12px 12px 12px;
+}
+#listSection p {
+    border-bottom: thin solid blue;
+
 }
 /*-----When the screen is larger than 600px-----*/
 @media only screen and (min-width: 600px) {
 
+    /*--- Main Section ---*/
+    main{
+        border: 3px solid red;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    /*To Do List Container*/
+    #wholeTodoContainer{
+        width: 420px;
+    }
 
 }
