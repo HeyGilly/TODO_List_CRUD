@@ -2,3 +2,24 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+/*Navigation*/
+nav{
+    background-color: azure;
+    padding: 1em 0;
+}
+/*Navigation Anchor*/
+nav a{
+    text-decoration: none;
+    text-align: center;
+}
+/*Navigation header*/
+#navigationHeader {
+    color: darkred;
+    transition: transform 1s;
+}
+
+/*Navigation header Hover*/
+#navigationHeader:hover{
+    transform: scale(1.2);
+}
