@@ -1,0 +1,28 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+node_modules
+dist
+.cache
+
+.DS_Store
+/.idea
+.env
+
+# IntelliJ
+out/
+
+## File-based project format:
+*.ipr
+*.iws
+
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+### Node ###
+# Logs
+logs
+*.log
