@@ -81,7 +81,7 @@ h1{
     border-radius: 8px;
     border: none;
     height: fit-content;
-
+    transition: scale .08s, box-shadow 1s;
 }
 
 /*--- Header Two ---*/
@@ -141,6 +141,12 @@ h2{
     border-radius: 1rem;
     transition: scale 1s, box-shadow 1.4s;
 }
+/*---- Hover Effects ---*/
+#submitButton:hover{
+    scale: 1.06;
+    box-shadow: rgb(197, 239, 255) 0px 3px 8px;
+}
+
 .edit:hover, .delete:hover{
     scale: 1.06;
     opacity: 0.8;
