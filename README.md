@@ -32,7 +32,17 @@ The languages used to create this application:
 
 * [X] Google Fonts
 * [X] Navigation
-* [ ] Body - Background
+* [ ] Create a basic skeleton of what application (HTML)
+  * Header 1
+  * input and submit button
+  * header 2
+  * an idea of what the task list and edit, delete buttons
+    * this will be taken out later, but it needs to be seen, so you can what the task list  
+    * The task will be listed will be an input and readonly until the edit button is picked
+* [ ] Style the skeleton (CSS)
+* [ ] Functionality Javascript
+  * Take out the taskcontainer list
+  * 
  
 
 
