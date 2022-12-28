@@ -27,25 +27,50 @@ The languages used to create this application:
 - CSS
 - Vanilla Javascript
 - Google Fonts
+- Font Awesome
 
 ## Pathway
 
 * [X] Google Fonts
 * [X] Navigation
-* [ ] Create a basic skeleton of what application (HTML)
+* [X] Create a basic skeleton of what application (HTML)
   * Header 1
   * input and submit button
   * header 2
   * an idea of what the task list and edit, delete buttons
     * this will be taken out later, but it needs to be seen, so you can what the task list  
     * The task will be listed will be an input and readonly until the edit button is picked
-* [ ] Style the skeleton (CSS)
-* [ ] Functionality Javascript
-  * Take out the taskcontainer list
-  * 
+* [X] Style the skeleton (CSS)
+* [X] Functionality Javascript
+  * [X] Take out the taskcontainer list
+  * [X] when submit button clicked, run a function (console.log)
+  * [X] capture the input value 
+  * [X] make sure your input is not null (if statement)
+    * [X] Create an alert in HTML, CSS and JS
+  * [X] on else, 
+    * [X] hide alert
+    * [X] create element from the idea of task list earlier. 
+      * [X] div - tasksContainer
+      * [X] section - taskTextContainer
+      * [X] inside taskTextContainer put the inner text as the value from input
+      * [X] section - buttonContainerSection
+      * [X] add edit and delete button with each class
+      * [X] add main Div (tasksContainer) to the div in HTML tasklist. 
+      * [X] input value reset to " "
+  * [X] make the Edit button functional
+    * remove readonly, this will make it editable
+    * change edit button to save button
+    * remove class and add save class
+    * display none delete button
+    * (*) Created an if statement that will check to see if the class is edit or save to add the readonly
+  * [X] make the delete button functional
+  * [X] get the total count of the of task to be presented
  
 
-
+### Personal Statement
+While building this application, I learned many new properties and methods that have to do with HTML DOM elements. Thanks to w3school with a list of properties, I now understand the real potential of what Javascript can do. I now have a better understanding of (createElement, appendChild, remove())  properties
+`https://www.w3schools.com/jsref/dom_obj_all.asp`
+There were many other sites I was able to get help from, however the w3school was the best one to have a better understanding how and what these methods are. 
 ---
 
 > Linkedin [/HeyGilly](https://www.linkedin.com/in/heygilly) &nbsp;&middot;&nbsp;
