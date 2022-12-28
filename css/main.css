@@ -5,7 +5,8 @@
 /*Body*/
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #c5efff;
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /*----Navigation----*/
@@ -29,7 +30,122 @@ nav a{
     transform: scale(1.2);
 }
 
+/*---Main Section---*/
+main{
+    width: 380px;
+    margin: 10em auto;
+    padding-bottom: 24px;
+    background-color: #ffffff;
+    border-radius: 18px 18px 18px 18px;
+    border: 2px solid black;
+    box-shadow: rgba(6, 24, 44, 0.4) 0 0 0 2px, rgba(6, 24, 44, 0.65) 0 4px 6px -1px, rgba(255, 255, 255, 0.08) 0 1px 0 inset;
+}
+/*--- Header ---*/
+header{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 15px 15px 0 0;
+    padding-bottom: 24px;
+}
+/*Header One*/
+h1{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 12px;
+}
 
+/*Form Container*/
+#taskInputContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px 0 0 0;
+}
+
+/*input - insert task input */
+#newTaskInput{
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 6px 12px;
+    font-weight: 500;
+    width: 80%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0 inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    outline: none;
+}
+/*Submit Button*/
+#submitButton{
+    padding: 10px 12px;
+    font-weight: 800;
+    color:darkblue;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    height: fit-content;
+
+}
+
+/*--- Header Two ---*/
+h2{
+    margin: 12px 0 12px 12px ;
+    font-size: 16px;
+}
+
+/*--- task Container ---*/
+.tasksContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto 12px auto;
+    padding: 6px 12px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0 inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    background-color: #56CCF2;
+    border-radius: 1rem;
+
+}
+/*--- Task Text - ReadOnly ---*/
+.taskText{
+    font-size: 12px;
+    width: 220px;
+    font-weight: 500;
+    padding: 0 0 0 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+/*--- Task Text - Not Read Only ---*/
+.taskText:not(:read-only){
+    font-size: 12px;
+    color: #111111;
+    padding:6px;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+/*--- Edit Button ---*/
+.edit{
+    font-size: 18px;
+    padding: 4px 10px ;
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 1rem;
+    transition: scale 1s, box-shadow 1.4s;
+}
+/*--- Delete Button ---*/
+.delete{
+    font-size: 18px;
+    padding: 4px 10px;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 1rem;
+    transition: scale 1s, box-shadow 1.4s;
+}
+.edit:hover, .delete:hover{
+    scale: 1.06;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+}
 
 
 /*-----When the screen is larger than 600px-----*/
