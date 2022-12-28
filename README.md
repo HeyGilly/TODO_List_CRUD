@@ -32,15 +32,8 @@ The languages used to create this application:
 
 * [X] Google Fonts
 * [X] Navigation
-* [X] Body - Background
-* [X] TODO list
-  * [X] Header
-  * [X] Input
-  * [X] List Template
-* [X] Make it Responsive
-* [ ] Javascript Functionality
-  * [ ] start over 
-
+* [ ] Body - Background
+ 
 
 
 ---
