@@ -14,11 +14,11 @@
 </h4>
 
 <div align="center">
-<img src="https://placehold.co/600x400" alt="TODO List" align="center">
+<img src="img/todo.gif" alt="TODO List" align="center">
 </div>
 
 ## Live View
-- <a href="">Click Here</a>
+- <a href="https://todo-gilly.netlify.app">Click Here</a>
 
 ## Languages
 
@@ -68,9 +68,13 @@ The languages used to create this application:
  
 
 ### Personal Statement
+<p>
 While building this application, I learned many new properties and methods that have to do with HTML DOM elements. Thanks to w3school with a list of properties, I now understand the real potential of what Javascript can do. I now have a better understanding of (createElement, appendChild, remove())  properties
-`https://www.w3schools.com/jsref/dom_obj_all.asp`
 There were many other sites I was able to get help from, however the w3school was the best one to have a better understanding how and what these methods are. 
+</p>
+
+`https://www.w3schools.com/jsref/dom_obj_all.asp`
+
 ---
 
 > Linkedin [/HeyGilly](https://www.linkedin.com/in/heygilly) &nbsp;&middot;&nbsp;
