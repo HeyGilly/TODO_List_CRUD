@@ -7,6 +7,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
 }
 
 /*----Navigation----*/
@@ -30,9 +31,28 @@ nav a{
     transform: scale(1.2);
 }
 
+/*--- Alert Error ---*/
+#alert{
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 340px;
+    padding: 12px 24px;
+    border-radius: 1rem;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+/*Alert Header*/
+#alert h5{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+
+}
 /*---Main Section---*/
 main{
-    width: 380px;
+    width: 360px;
     margin: 10em auto;
     padding-bottom: 24px;
     background-color: #ffffff;
@@ -106,7 +126,7 @@ h2{
 /*--- Task Text - ReadOnly ---*/
 .taskText{
     font-size: 12px;
-    width: 220px;
+    width: 200px;
     font-weight: 500;
     padding: 0 0 0 0;
     border: none;
@@ -121,6 +141,12 @@ h2{
     background-color: rgba(255, 255, 255, 0.37);
 }
 
+
+/*-- button container ---*/
+.buttonContainer{
+    display: flex;
+    flex-wrap: nowrap;
+}
 /*--- Edit Button ---*/
 .edit{
     font-size: 18px;
@@ -141,6 +167,17 @@ h2{
     border-radius: 1rem;
     transition: scale 1s, box-shadow 1.4s;
 }
+.save{
+    font-size: 18px;
+    padding: 4px 10px;
+    background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 1rem;
+    transition: scale 1s, box-shadow 1.4s;
+}
+
+
 /*---- Hover Effects ---*/
 #submitButton:hover{
     scale: 1.06;
