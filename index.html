@@ -23,6 +23,10 @@
     </a>
   </nav>
 
+  <div id="alert">
+    <h5>Sorry, but input can not be blank!</h5>
+  </div>
+
 
 <!--Main Section-->
 <main>
@@ -42,24 +46,32 @@
 
 
   <!--Header 2-->
-  <h2><span>0</span> Tasks</h2>
+  <h2><span id="taskCount">0</span> Tasks</h2>
 
+  <!--Use this so we can create the element with Javascript-->
+  <div id="taskList"></div>
 
-  <!-- List of Task-->
-  <div class="tasksContainer">
-    <!-- tasks -->
-    <section class="taskTextContainer">
-      <!-- Read only to make sure this input is not editable -->
-      <input type="text" class="taskText" value="Template of what it will look like"  readonly/>
-    </section>
-    <!--Button Container-->
-    <section class="buttonContainer">
-      <!--Edit Button-->
-      <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
-      <!-- Delete Button -->
-      <button class="delete"><i class="fa-solid fa-trash"></i></button>
-    </section>
-  </div>
+<!--
+  You want build this first so you know what the finish product will look like,
+  you comment it out so you when you start building in javascript you can use it
+  as a template. Trust this will help in the long run.
+-->
+
+<!--  &lt;!&ndash; List of Task&ndash;&gt;-->
+<!--  <div class="tasksContainer">-->
+<!--    &lt;!&ndash; tasks &ndash;&gt;-->
+<!--    <section class="taskTextContainer">-->
+<!--      &lt;!&ndash; Read only to make sure this input is not editable &ndash;&gt;-->
+<!--      <input type="text" class="taskText" value="Template of what it will look like"  readonly/>-->
+<!--    </section>-->
+<!--    &lt;!&ndash;Button Container&ndash;&gt;-->
+<!--    <section class="buttonContainer">-->
+<!--      &lt;!&ndash;Edit Button&ndash;&gt;-->
+<!--      <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>-->
+<!--      &lt;!&ndash; Delete Button &ndash;&gt;-->
+<!--      <button class="delete"><i class="fa-solid fa-trash"></i></button>-->
+<!--    </section>-->
+<!--  </div>-->
 
 </main>
 
