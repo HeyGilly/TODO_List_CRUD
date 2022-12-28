@@ -24,6 +24,44 @@
   </nav>
 
 
+<!--Main Section-->
+<main>
+
+  <!--Header & Form Section-->
+  <header>
+    <!--Header-->
+    <h1>Today's List</h1>
+    <!-- form - insert task, Submit Button-->
+    <form id="taskInputContainer">
+      <!-- input for task -->
+      <input type="text" id="newTaskInput" placeholder="What's today's goal?"/>
+      <!--Submit Button-->
+      <button type="submit" id="submitButton">&#9166;</button>
+    </form>
+  </header>
+
+
+  <!--Header 2-->
+  <h2><span>0</span> Tasks</h2>
+
+
+  <!-- List of Task-->
+  <div class="tasksContainer">
+    <!-- tasks -->
+    <section class="taskTextContainer">
+      <!-- Read only to make sure this input is not editable -->
+      <input type="text" class="taskText" value="Template of what it will look like"  readonly/>
+    </section>
+    <!--Button Container-->
+    <section class="buttonContainer">
+      <!--Edit Button-->
+      <button class="edit"><i class="fa-solid fa-pen-to-square"></i></button>
+      <!-- Delete Button -->
+      <button class="delete"><i class="fa-solid fa-trash"></i></button>
+    </section>
+  </div>
+
+</main>
 
 </body>
   <script src="js/main.js"></script>
