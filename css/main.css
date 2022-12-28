@@ -94,11 +94,50 @@ main{
 #listSection{
     margin: 24px;
 }
-ul li {
-    border-bottom: thin solid blue;
-    position: relative;
-    padding: 15px 0 0 0;
+
+.task{
+    background-color: lightgrey;
+    height: auto;
+    margin-bottom: 8px;
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
 }
+.task span{
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    width: 400px;
+}
+
+.task .edit{
+    background: linear-gradient(309deg, rgb(0, 0, 0) 0%, rgb(100, 63, 8) 26%, rgb(255, 136, 0) 100%);
+    color: whitesmoke;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 6px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+
+.task .delete{
+    background: linear-gradient(309deg, rgba(2,0,36,1) 0%, rgb(121, 30, 9) 26%, rgb(255, 0, 8) 100%);
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
 /*-----When the screen is larger than 600px-----*/
 @media only screen and (min-width: 600px) {
 
