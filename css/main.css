@@ -35,24 +35,25 @@ nav a{
 #alert{
     background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    width: 340px;
+    width: 300px;
     padding: 12px 24px;
     border-radius: 1rem;
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 /*Alert Header*/
 #alert h5{
     color: white;
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
 
 }
 /*---Main Section---*/
 main{
-    width: 360px;
+    width: 300px;
     margin: 10em auto;
     padding-bottom: 24px;
     background-color: #ffffff;
@@ -115,18 +116,17 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 95%;
     margin: 0 auto 12px auto;
     padding: 6px 12px;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0 inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     background-color: #56CCF2;
     border-radius: 1rem;
-
 }
 /*--- Task Text - ReadOnly ---*/
 .taskText{
     font-size: 12px;
-    width: 200px;
+    width: 90%;
     font-weight: 500;
     padding: 0 0 0 0;
     border: none;
@@ -193,6 +193,20 @@ h2{
 
 /*-----When the screen is larger than 600px-----*/
 @media only screen and (min-width: 600px) {
+    /*--- Alert Error ---*/
+    #alert{
+        width: 340px;
+    }
+    /*Alert Header*/
+    #alert h5{
+        font-size: 16px;
+    }
+
+
+    /*---Main Section---*/
+    main{
+        width: 480px;
+    }
 
 
 }
